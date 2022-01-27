@@ -1,5 +1,5 @@
 import { SendEmailCommand }  from "@aws-sdk/client-ses";
-import { sesClient } from "./ses_client.js";
+import { sesClient } from "./aws-ses-client.js";
 
 export const sendEmail = async (recipientEmail) => {
   try {
